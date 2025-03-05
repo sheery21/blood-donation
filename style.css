@@ -1,0 +1,5353 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto",Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+header{
+  z-index: 1000;
+}
+nav{
+    padding-left: 20px;
+    padding-right: 20px;
+    background: seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/* .div-nav-img{
+   
+}
+.nav-img{
+    
+} */
+.nav-search{
+    width: 270px;
+    height: 40px;
+    background: #fff ;
+    border-radius:10px ;
+    display: flex;
+    align-items: center;
+}
+.nav-input{
+  width: 80%;
+  height:   100%;
+  padding-left: 10px;
+  border: none;
+  border-radius:  10px 0 0px 10px;
+  outline: none;
+  font-size: 18px;
+  
+}
+.nav-icon{
+    width: 10%;
+    font-size: 25px; 
+    background:#fff;
+    border-radius: 0 5px 5px 0;
+    height: 100% ;
+    border: none;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 19;
+}
+li{
+  z-index: 10;
+}
+a{
+    color: #000;
+   font-size: 22px;
+}
+#checkbar{
+    display: none;   
+}
+.checkbar{
+    display: none;
+}
+
+/* start the contanet 1 */
+.contaner-1{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  height: 61vh;
+}
+
+.contaner-1-main{
+ 
+    background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/SB_Green_V2.jpg);
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-position:initial; */
+    position: absolute;
+    height: 60vh;
+    display: flex;
+    width: 87%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.header-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header-h1{
+
+    font-size: 35px;
+}
+
+.header-p1{
+
+    font-size: 24px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.header-main-div{
+  
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.header-input{
+  padding-left: 10px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.header-btn{
+ 
+    width: 250px;
+    height: 35px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.header-btn:hover{
+    background: #c70019;
+}
+
+.header-a{
+  font-size: 12px;
+  color: blue;
+}
+
+/* end the contanet 1 */
+
+/* start the contanet 2 */
+
+.contaner-2{
+
+  height: 70vh;
+  display: flex;
+  /* background-color: #cce600; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cont-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height:60vh ;
+  gap: 35px;
+  border-radius: 2px;
+  /* border: 1px solid #000; */
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-1-card-1{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-1-card-1-img{
+
+  width: 100%;
+}
+
+.card-1-img{
+  width: 100%;
+
+}
+
+.cont-main-1-card-1-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-1-card-1-h1{
+
+  font-size: 22px;
+}
+.cont-main-1-card-1-p1{
+
+  font-size: 15px;
+}
+.cont-main-1-card-1-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-1-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn:hover{
+  background-color: #c70019;
+}
+.card-1-btn-2{
+  width: 200px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 220px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+.cont-main-2{
+
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height:60vh ;
+  gap: 35px;
+  border-radius: 2px;
+  /* border: 1px solid #000; */
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-2-card-2{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-2-card-2-img{
+
+  width: 100%;
+}
+
+.card-2-img{
+  width: 100%;
+
+}
+
+.cont-main-2-card-2-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-card-2-h1{
+
+  font-size: 22px;
+}
+.cont-main-2-card-2-p1{
+
+  font-size: 15px;
+}
+.cont-main-2-card-2-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-2-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-2-btn:hover{
+  background-color: #c70019;
+}
+
+/* end the contanet 2 */
+
+/* start the contanet 3 */
+.contaner-3{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  height: 65vh;
+}
+
+.contaner-3-main{
+ 
+    background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/BLOOD-DONOR-APP-HERO-2024-DESKTOP-BLANK-GRADIENT-NEW.jpg);
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 65vh;
+    display: flex;
+    width: 86%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-3-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-3-h1{
+
+    font-size: 45px;
+    color:#e11b22
+}
+
+.cont-3-p1{
+
+    font-size: 29px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-3-main-1-para{
+  
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-3-inpot{
+  padding-left: 10px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-3-btn{
+ 
+    width: 300px;
+    height: 60px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-3-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 3 */
+/* start the contanet 4 */
+
+.contaner-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ gap: 10px;
+ height: 62vh;
+}
+.cont-4-main-1{
+  display: flex;
+  gap: 5px;
+}
+.cont-4-main-1-h1{
+  font-size: 45px;
+}
+.cont-4-main-2{
+
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 45vh;
+box-shadow: 0 1px 3px 1px #ededed;
+gap: 10px;
+}
+.cont-4-main-3{
+
+display: flex;
+width: 350px;
+}
+.card-4-img{
+ 
+width: 100%;
+
+}
+.cont-main-4-para{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-h1{
+
+  font-size: 25px;
+}
+.cont-4-main-2-p1{
+
+font-size: 18px;
+color: #007caf;
+
+}
+/* end the contanet 4 */
+
+/* start the contanet 5 */
+.contaner-5{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  height: 65vh;
+}
+
+
+#text ,#fillInblood {
+  color:#fff ;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.contaner-5-main{
+ 
+    background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/hero-mockups/Platelet_London_DT_Hero_with_text.jpg);
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 65vh;
+    display: flex;
+    width: 86%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-5-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-5-h1{
+
+    font-size: 45px;
+    color:#fff
+}
+
+.cont-5-p1{
+
+    font-size: 29px;
+    color:#fff;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-5-main-1-para{
+  
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-5-inpot{
+  padding-left: 10px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-5-btn{
+ 
+    width: 150px;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-5-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 5 */
+
+/* start the contanet 6 */
+.contaner-6{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  height: 65vh;
+}
+
+.contaner-6-main{
+ 
+    background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/Volunteer_Hero.jpg);
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 65vh;
+    display: flex;
+    width: 86%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-6-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-6-h1{
+
+    font-size: 45px;
+    color:#000
+}
+
+.cont-6-p1{
+
+    font-size: 29px;
+    color:#000;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-6-main-1-para{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-6-inpot{
+  padding-left: 10px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-6-btn{
+ 
+    width: 350px;
+    height: 50px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-6-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 6 */
+
+/* start the contanet 7 */
+
+.contaner-7{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+.card-7-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.card-7-main-1-img{
+
+  display: flex;
+
+}
+.card-7-img{
+  width: 350px;
+  height: 390px;
+}
+.card-7-main-1-para{
+
+display: flex;
+flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+.card-7-h1{
+  font-size: 28px;
+}
+.card-7-p1{
+  font-size: 18px;
+  color: #908f8f;
+}
+
+/* start the form */
+
+#form{
+  width: 50%;
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background: #b84f4f;
+}
+.form-h1{
+  font-size: 30px;
+
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 5px;
+}
+input{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+input:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+select{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+select:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+.submit{
+  height:20vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #e11b22;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+/* end the form */
+
+/* end the contanet 7 */
+
+
+/* start the footer */
+
+footer{
+height: 85px;
+background-color: #212529;
+  
+}
+.footer-main{
+  display: flex;
+  height: 60px;
+  background: #ededed;
+  padding-left: 20px;
+  justify-content: center;
+}
+.footer-main-1{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  width: 80%;
+}
+.footer-main-1-main{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+}
+.footer-main-1-a-1{
+  font-size: 12px;
+  color: #212529;
+}
+.footer-main-1-a-1::after{
+  content: "•";
+  margin-left: .4rem;
+  font-size: 1.rem;
+  color: #212529;
+  box-sizing: border-box;
+}
+.footer-main-2-p1{
+
+display: flex;
+gap: 10px;
+}
+/* .footer-main-2-a-1{
+
+} */
+.fa-brands{
+
+ font-size: 22px;
+ border-left: .1rem solid #ccc;
+ padding: .4rem .4rem .4rem;
+ color: #6d6e70;
+}
+
+.footer-main-2-p2{
+  display: none;
+}
+.p{
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+overflow:auto;
+}
+
+/* end the footer */
+
+@media screen and  (max-width: 1030px) {
+    nav ul {
+        position: fixed;
+        top:  130px;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+       transition: all 0.5s;
+      }
+      ul li{
+        padding-top: 30px;
+        text-align: center;
+      }
+      .checkbar{
+        display: block;
+        font-size: 30px;
+      }
+      #checkbar:checked ~ ul{
+        display: block;
+          left:  0;
+        transition: all 0.5s ease;
+      }
+    
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+        background: seashell;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+    
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .div-nav-img{
+       width: 200px;
+    }
+    .nav-img{
+        width: 100%;
+    }
+    .nav-search{
+        width: 270px;
+        height: 40px;
+        background: #fff ;
+        border-radius:10px ;
+        display: flex;
+        display: block;
+        align-items: center;
+    }
+
+    .nav-input{
+      width: 80%;
+      height:   100%;
+      padding-left: 10px;
+      border: none;
+      border-radius:  10px 0 0px 10px;
+      outline: none;
+      font-size: 18px;
+      
+    }
+    .nav-icon{
+        width: 10%;
+        font-size: 25px; 
+        background:#fff;
+        border-radius: 0 5px 5px 0;
+        height: 100% ;
+        border: none;
+    
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    a{
+        color: #000;
+       font-size: 22px;
+    }
+    /* #checkbar{
+        display: none;   
+    }
+    .checkbar{
+        display: none;
+    } */
+    
+} 
+
+@media screen and  (max-width: 768px)  {
+  
+    nav ul {
+        position: fixed;
+        top:  100px;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        flex-direction: column;
+       transition: all 0.5s;
+        background-color: #6d6e70;
+      }
+      ul li{
+        padding-top: 30px;
+        width: 100% ;
+        text-align: center;
+      }
+      .checkbar{
+        display: block;
+        font-size: 30px;
+      }
+      #checkbar:checked ~ ul{
+        display: block;
+          left:  0;
+        transition: all 0.5s ease;
+      }
+    
+    nav{
+      /* width: 100% ; */
+        padding-left: 20px;
+        padding-right: 20px;
+        background: seashell;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+    
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .div-nav-img{
+       width: 200px;
+    }
+    .nav-img{
+        width: 100%;
+    }
+    .nav-search{
+        width: 270px;
+        height: 40px;
+        background: #fff ;
+        border-radius:10px ;
+        display: flex;
+        display: none;
+        align-items: center;
+    }
+
+    .nav-input{
+      width: 80%;
+      height:   100%;
+      padding-left: 10px;
+      border: none;
+      border-radius:  10px 0 0px 10px;
+      outline: none;
+      font-size: 18px;
+      
+    }
+    .nav-icon{
+        width: 10%;
+        font-size: 25px; 
+        background:#fff;
+        border-radius: 0 5px 5px 0;
+        height: 100% ;
+        border: none;
+    
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    a{
+        color: #000;
+       font-size: 22px;
+    }
+    /* #checkbar{
+        display: none;   
+    }
+    .checkbar{
+        display: none;
+    } */
+    
+}
+/* @media screen and  (max-width: 2563px) { */
+
+/* start the contanet 1 */
+  /* .contaner-1{ */
+    /* padding-left: 0px!important; */
+    /* padding-right: 0px!important; */
+    /* display: flex;
+    justify-content: center;
+  }
+
+  .contaner-1-main{
+  */
+    /* background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/SB_Green_V2.jpg); */
+    /* background-size: contain ; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+     */
+    /* background-position:initial; */
+    /* position: absolute;
+    height: 57vh;
+    display: flex;
+    width: 93.6%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.header-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.header-h1{
+
+    font-size: 45px;
+}
+
+.header-p1{
+
+    font-size: 35px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.header-main-div{
+  
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.header-input{
+  padding-left: 10px;
+    width: 230px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.header-btn{
+ 
+    width: 290px;
+    height: 45px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.header-btn:hover{
+    background: #c70019;
+}
+
+.header-a{
+  font-size: 18px;
+  color: blue;
+}
+  end the contanet 1
+} */
+@media screen and  (max-width: 1443px) {
+
+  /* start the contanet 1 */
+  .contaner-1{
+    /* padding-left: 0px!important; */
+    /* padding-right: 0px!important; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .contaner-1-main{
+ 
+    background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/SB_Green_V2.jpg);
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-position:initial; */
+    position: absolute;
+    height: 57vh;
+    display: flex;
+    width: 93.6%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.header-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header-h1{
+
+    font-size: 35px;
+}
+
+.header-p1{
+
+    font-size: 30px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.header-main-div{
+  
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.header-input{
+  padding-left: 10px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.header-btn{
+ 
+    width: 250px;
+    height: 35px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.header-btn:hover{
+    background: #c70019;
+}
+
+.header-a{
+  font-size: 12px;
+  color: blue;
+}
+/* end the contanet 1 */
+
+/* start the contanet 2 */
+
+.contaner-2{
+
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+}
+.cont-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width:25%;
+  height:auto;
+
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-1-card-1{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-1-card-1-img{
+
+  width: 100%;
+}
+
+.card-1-img{
+  width: 100%;
+
+}
+
+.cont-main-1-card-1-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cont-main-1-card-1-h1{
+
+  font-size: 22px;
+}
+.cont-main-1-card-1-p1{
+
+  font-size: 15px;
+}
+.cont-main-1-card-1-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-1-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn:hover{
+  background-color: #c70019;
+}
+.card-1-btn-2{
+  width: 200px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 190px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+
+
+.cont-main-2{
+
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height:auto ;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-2-card-2{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-2-card-2-img{
+
+  width: 100%;
+}
+
+.card-2-img{
+  width: 100%;
+
+}
+
+.cont-main-2-card-2-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-card-2-h1{
+
+  font-size: 22px;
+}
+.cont-main-2-card-2-p1{
+
+  font-size: 15px;
+}
+.cont-main-2-card-2-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-2-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-2-btn:hover{
+  background-color: #c70019;
+}
+
+/* end the contanet 2 */
+
+/* start the contanet 3 */
+
+.contaner-3{
+  padding-left: 0;
+  padding-right:0;
+  display: flex;
+  justify-content: center;
+  height: 55vh;
+}
+
+.contaner-3-main{
+  background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/BLOOD-DONOR-APP-HERO-2024-DESKTOP-BLANK-GRADIENT-NEW.jpg);
+  /* background-size: contain ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: auto;
+  display: flex;
+  width: 94%;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.cont-3-main-1-div{
+height: 30vh;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.cont-3-h1{
+
+  font-size: 45px;
+  color:#e11b22
+}
+
+.cont-3-p1{
+
+  font-size: 28px;
+}
+
+.header-inpot{
+display: flex;
+gap: 5px;
+align-items: center;
+}
+
+.cont-3-main-1-para{
+
+  width: 88%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.cont-3-inpot{
+padding-left: 0px;
+  width: 180px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.cont-3-btn{
+
+  width: 300px;
+  height: 44px;
+  background:     #e11b22;
+  border: none;
+  border-radius: 5px;
+  color:#fff;
+  font-size: 23px;
+}
+.cont-3-btn:hover{
+  background: #c70019;
+}
+
+/* end the contanet 3 */
+
+/* start the contanet 4 */
+
+.contaner-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ gap: 10px;
+ height: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.cont-4-main-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.cont-4-main-1-h1{
+  font-size: 45px;
+  text-align: center;
+}
+.cont-4-main-2{
+
+display: flex;
+flex-direction: column;
+width: 26%;
+height: auto;
+padding-bottom: 10px;
+box-shadow: 0 1px 3px 1px #ededed;
+gap: 10px;
+}
+.cont-4-main-3{
+
+display: flex;
+width: 100%;
+}
+.card-4-img{
+ 
+width: 100%;
+
+}
+.cont-main-4-para{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-h1{
+
+  font-size: 28px;
+}
+.cont-4-main-2-p1{
+
+font-size: 18px;
+color: #007caf;
+
+}
+/* end the contanet 4 */
+
+/* start the contanet 5 */
+.contaner-5{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  /* justify-content: center; */
+  height: auto;
+  
+}
+
+.contaner-5-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 93%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 59vh;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-5-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-5-h1{
+    font-size: 48px;
+    color:#fff;
+}
+
+.cont-5-p1{
+
+    font-size: 28px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-5-main-1-para{
+  
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-5-inpot{
+  padding-left: 0px;
+    width: 180px;
+    height: 35px;
+    font-size: 28px;
+}
+
+.cont-5-btn{
+ 
+    width: 150px;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-5-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 5 */
+
+/* start the contanet 6 */
+.contaner-6{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-6-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 93%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 55vh;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-6-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-6-h1{
+
+    font-size: 45px;
+    color:#000;
+}
+
+.cont-6-p1{
+
+    font-size: 28px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-6-main-1-para{
+  
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-6-inpot{
+  padding-left: 0px;
+    width: 350px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-6-btn{
+ 
+    width: 100%;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-6-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 6 */
+
+/* start the contanet 7 */
+
+.contaner-7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 20px;
+  padding-top: 20px;
+ gap: 10px;
+}
+.card-7-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+.card-7-main-1-img{
+
+  display: flex;
+ width: 90%;
+}
+.card-7-img{
+  width: 100%;
+  height: 386px;
+}
+.card-7-main-1-para{
+
+display: flex;
+flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-7-h1{
+  font-size: 28px;
+}
+.card-7-p1{
+  font-size: 18px;
+  color: #908f8f;
+}
+
+/* start the form */
+
+#form{
+  width: 45%;
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form-h1{
+  font-size: 30px;
+
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 5px;
+}
+input{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+input:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+select{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+select:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+.submit{
+  height:20vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #e11b22;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+/* end the form */
+
+/* end the contanet 7 */
+
+/* start the footer */
+
+/* start the footer */
+
+#footer{
+  height: 85px;
+  background-color: #212529;
+    
+  }
+  .footer-main{
+    display: flex;
+    /* width: 100%; */
+    height: 60px;
+    background: #ededed;
+    padding-left: 20px;
+    justify-content: center;
+  }
+  .footer-main-1{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 80%;
+  }
+  .footer-main-1-main{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+  }
+  .footer-main-1-a-1{
+    font-size: 12px;
+    color: #212529;
+  }
+  .footer-main-1-a-1::after{
+    content: "•";
+    margin-left: .4rem;
+    font-size: 1.rem;
+    color: #212529;
+    box-sizing: border-box;
+  }
+  .footer-main-2-p1{
+  
+  display: flex;
+  gap: 10px;
+  }
+  /* .footer-main-2-a-1{
+  
+  } */
+  .fa-brands{
+  
+   font-size: 22px;
+   border-left: .1rem solid #ccc;
+   padding: .4rem .4rem .4rem;
+   color: #6d6e70;
+  }
+  
+  .footer-main-2-p2{
+    display: none;
+  }
+  /* end the footer */
+
+}
+@media screen and  (max-width: 1026px) {
+
+  /* start the contanet 1 */
+
+    .contaner-1{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+      }
+    .contaner-1-main{
+ 
+        background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/SB_Green_V2.jpg);
+        height: 62vh;
+        /* background-position: 10px ; */
+        background-size: cover;
+        display: flex;
+        width: 100%;
+        /* position: absolute; */
+        /* background-position: center; */
+        background-size: cover;
+        padding-left: 0;
+        align-items: center;
+    }
+    
+    .header-div{
+      height: 100%;
+      padding-left: 20px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .header-h1{
+    
+        font-size: 30px;
+    }
+    
+    .header-p1{
+    
+        font-size: 25px;
+    }
+    
+    .header-inpot{
+      display: flex;
+      gap: 5px;
+      width: 50%;
+      flex-direction: column;
+      align-items: start;
+    }
+    
+    .header-main-div{
+      
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-input{
+      padding-left: 10px;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    .header-btn{
+     
+        width: 220px;
+        height: 35px;
+        background:     #e11b22;
+        border: none;
+        border-radius: 5px;
+        color:#fff;
+        font-size: 20px;
+    }
+    .header-btn:hover{
+        background: #c70019;
+    }
+    
+    .header-a{
+      font-size: 12px;
+      color: blue;
+    }
+
+    /* end the contanet 1 */
+
+    /* start the contanet 2 */
+
+.contaner-2{
+
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+}
+.cont-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width:29%;
+  height:auto;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-1-card-1{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-1-card-1-img{
+
+  width: 100%;
+}
+
+.card-1-img{
+  width: 100%;
+
+}
+
+.cont-main-1-card-1-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cont-main-1-card-1-h1{
+
+  font-size: 22px;
+}
+.cont-main-1-card-1-p1{
+
+  font-size: 15px;
+}
+.cont-main-1-card-1-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-1-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn:hover{
+  background-color: #c70019;
+}
+.card-1-btn-2{
+  width: 200px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 190px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+
+
+.cont-main-2{
+
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  height:auto ;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-2-card-2{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-2-card-2-img{
+
+  width: 100%;
+}
+
+.card-2-img{
+  width: 100%;
+
+}
+
+.cont-main-2-card-2-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-card-2-h1{
+
+  font-size: 22px;
+}
+.cont-main-2-card-2-p1{
+
+  font-size: 15px;
+}
+.cont-main-2-card-2-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-2-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-2-btn:hover{
+  background-color: #c70019;
+}
+
+/* end the contanet 2 */
+
+/* start the contanet 3 */
+
+.contaner-3{
+  padding-left: 0;
+  padding-right:0;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+.contaner-3-main{
+  background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/BLOOD-DONOR-APP-HERO-2024-DESKTOP-BLANK-GRADIENT-NEW.jpg);
+  /* background-size: contain ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: auto;
+  display: flex;
+  width: 100%;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.cont-3-main-1-div{
+height: 30vh;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.cont-3-h1{
+
+  font-size: 35px;
+  color:#e11b22
+}
+
+.cont-3-p1{
+
+  font-size: 22px;
+}
+
+.header-inpot{
+display: flex;
+gap: 5px;
+align-items: center;
+}
+
+.cont-3-main-1-para{
+
+  width: 90%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.cont-3-inpot{
+padding-left: 0px;
+  width: 180px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.cont-3-btn{
+
+  width: 250px;
+  height: 50px;
+  background:     #e11b22;
+  border: none;
+  border-radius: 5px;
+  color:#fff;
+  font-size: 17px;
+}
+.cont-3-btn:hover{
+  background: #c70019;
+}
+
+/* end the contanet 3 */
+
+/* start the contanet 4 */
+
+.contaner-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ gap: 10px;
+ height: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.cont-4-main-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.cont-4-main-1-h1{
+  font-size: 30px;
+  text-align: center;
+}
+.cont-4-main-2{
+
+display: flex;
+flex-direction: column;
+width: 30%;
+height: auto;
+padding-bottom: 10px;
+box-shadow: 0 1px 3px 1px #ededed;
+gap: 10px;
+}
+.cont-4-main-3{
+
+display: flex;
+width: 100%;
+}
+.card-4-img{
+ 
+width: 100%;
+
+}
+.cont-main-4-para{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-h1{
+
+  font-size: 20px;
+}
+.cont-4-main-2-p1{
+
+font-size: 14px;
+color: #007caf;
+
+}
+/* end the contanet 4 */
+
+/* start the contanet 5 */
+.contaner-5{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  /* justify-content: center; */
+  height: auto;
+  
+}
+
+.contaner-5-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 59vh;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-5-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-5-h1{
+    font-size: 28px;
+    color:#fff;
+}
+
+.cont-5-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-5-main-1-para{
+  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-5-inpot{
+  padding-left: 0px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-5-btn{
+ 
+    width: 150px;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-5-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 5 */
+
+/* start the contanet 6 */
+.contaner-6{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-6-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 55vh;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-6-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-6-h1{
+
+    font-size: 28px;
+    color:#000;
+}
+
+.cont-6-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-6-main-1-para{
+  
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-6-inpot{
+  padding-left: 0px;
+    width: 350px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-6-btn{
+ 
+    width: 100%;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-6-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 6 */
+
+/* start the contanet 7 */
+
+.contaner-7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 20px;
+  padding-top: 20px;
+ gap: 10px;
+}
+.card-7-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+.card-7-main-1-img{
+
+  display: flex;
+ width: 90%;
+}
+.card-7-img{
+  width: 100%;
+  height: 386px;
+}
+.card-7-main-1-para{
+
+display: flex;
+flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-7-h1{
+  font-size: 28px;
+}
+.card-7-p1{
+  font-size: 18px;
+  color: #908f8f;
+}
+
+/* start the form */
+
+#form{
+  width: 40%;
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form-h1{
+  font-size: 30px;
+
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 5px;
+}
+input{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+input:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+select{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+select:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+.submit{
+  height:20vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #e11b22;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+/* end the form */
+
+/* end the contanet 7 */
+
+/* start the footer */
+
+footer{
+  height: auto;
+  background-color: #212529;
+    
+  }
+  .footer-main{
+    display: flex;
+    /* width: 100%; */
+    height: auto;
+    background: #ededed;
+    padding-left: 20px;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-main-1{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+  .footer-main-1-main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .footer-main-1-a-1{
+    font-size: 15px;
+    color: #212529;
+  }
+  .footer-main-1-a-1::after{
+    content: "•";
+    margin-left: .4rem;
+    font-size: 1.rem;
+    color: #212529;
+    box-sizing: border-box;
+  }
+  .footer-main-2-p1{
+  display: none;
+  /* display: flex; */
+  gap: 10px;
+  }
+  /* .footer-main-2-a-1{
+  
+  } */
+  .fa-brands{
+  flex: 1 0 auto;
+  border-left: 0.1rem solid #ccc;
+  text-align: center;
+   font-size: 25px;
+   /* line-height: 2.2rem; */
+   padding: .5rem 1.8rem .2rem;
+   display: inline-block;
+   color: #6d6e70;
+  }
+  
+  .footer-main-2-p2{
+    display: block;
+    display: flex;
+    justify-content: end;
+    /* border-bottom: .1rem solid #ccc; */
+  }
+  /* end the footer */
+
+}
+@media screen and  (max-width: 770px) {
+
+  /* start the contanet 1 */
+
+    .contaner-1{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+      }
+    .contaner-1-main{
+ 
+        background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/SB_Green_V2.jpg);
+        height: 62vh;
+        display: flex;
+        background-position: 90% 90%;
+        width: 100%;
+        /* position: absolute; */
+        /* background-position: center; */
+        /* background-size: contain; */
+        padding-left: 0;
+        align-items: center;
+    }
+    
+    .header-div{
+      height: 100%;
+      padding-left: 20px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .header-h1{
+    
+        font-size: 28px;
+    }
+    
+    .header-p1{
+    
+        font-size: 20px;
+    }
+    
+    .header-inpot{
+      display: flex;
+      gap: 5px;
+      width: 50%;
+      flex-direction: column;
+      align-items: start;
+    }
+    
+    .header-main-div{
+      
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-input{
+      padding-left: 10px;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    .header-btn{
+     
+        width: 220px;
+        height: 35px;
+        background:     #e11b22;
+        border: none;
+        border-radius: 5px;
+        color:#fff;
+        font-size: 20px;
+    }
+    .header-btn:hover{
+        background: #c70019;
+    }
+    
+    .header-a{
+      font-size: 12px;
+      color: blue;
+    }
+    /* end the contanet 1 */
+
+     /* start the contanet 2 */
+
+.contaner-2{
+
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+}
+.cont-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width:31%;
+  height:auto;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-1-card-1{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-1-card-1-img{
+
+  width: 100%;
+}
+
+.card-1-img{
+  width: 100%;
+
+}
+
+.cont-main-1-card-1-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cont-main-1-card-1-h1{
+
+  font-size: 22px;
+}
+.cont-main-1-card-1-p1{
+
+  font-size: 15px;
+}
+.cont-main-1-card-1-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-1-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn:hover{
+  background-color: #c70019;
+}
+.card-1-btn-2{
+  width: 200px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 190px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+
+
+.cont-main-2{
+
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  height:auto ;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-2-card-2{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-2-card-2-img{
+
+  width: 100%;
+}
+
+.card-2-img{
+  width: 100%;
+
+}
+
+.cont-main-2-card-2-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-card-2-h1{
+
+  font-size: 22px;
+}
+.cont-main-2-card-2-p1{
+
+  font-size: 15px;
+}
+.cont-main-2-card-2-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-2-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-2-btn:hover{
+  background-color: #c70019;
+}
+
+/* end the contanet 2 */
+
+
+/* start the contanet 3 */
+
+.contaner-3{
+  padding-left: 0;
+  padding-right:0;
+  display: flex;
+  justify-content: center;
+  height: 45vh;
+}
+
+.contaner-3-main{
+  background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/BLOOD-DONOR-APP-HERO-2024-DESKTOP-BLANK-GRADIENT-NEW.jpg);
+  /* background-size: contain ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: auto;
+  display: flex;
+  width: 100%;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.cont-3-main-1-div{
+height: 30vh;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.cont-3-h1{
+
+  font-size: 30px;
+  color:#e11b22
+}
+
+.cont-3-p1{
+
+  font-size: 18px;
+}
+
+.header-inpot{
+display: flex;
+gap: 5px;
+align-items: center;
+}
+
+.cont-3-main-1-para{
+
+  width: 80%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.cont-3-inpot{
+padding-left: 0px;
+  width: 180px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.cont-3-btn{
+
+  width: 230px;
+  height: 35px;
+  background:     #e11b22;
+  border: none;
+  border-radius: 5px;
+  color:#fff;
+  font-size: 17px;
+}
+.cont-3-btn:hover{
+  background: #c70019;
+}
+
+/* end the contanet 3 */
+
+/* start the contanet 4 */
+
+.contaner-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ gap: 10px;
+ height: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.cont-4-main-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.cont-4-main-1-h1{
+  font-size: 30px;
+  text-align: center;
+}
+.cont-4-main-2{
+
+display: flex;
+flex-direction: column;
+width: 30%;
+height: auto;
+padding-bottom: 10px;
+box-shadow: 0 1px 3px 1px #ededed;
+gap: 10px;
+}
+.cont-4-main-3{
+
+display: flex;
+width: 100%;
+}
+.card-4-img{
+ 
+width: 100%;
+
+}
+.cont-main-4-para{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-h1{
+
+  font-size: 20px;
+}
+.cont-4-main-2-p1{
+
+font-size: 14px;
+color: #007caf;
+
+}
+/* end the contanet 4 */
+
+/* start the contanet 5 */
+.contaner-5{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-5-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 45vh;
+    display: flex;
+    width:auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-5-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-5-h1{
+
+    font-size: 28px;
+    color:#fff;
+}
+
+.cont-5-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-5-main-1-para{
+  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-5-inpot{
+  padding-left: 0px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-5-btn{
+ 
+    width: 150px;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-5-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 5 */
+
+/* start the contanet 6 */
+.contaner-6{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-6-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 55vh;
+    display: flex;
+    width:auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-6-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-6-h1{
+
+    font-size: 28px;
+    color:#000;
+}
+
+.cont-6-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-6-main-1-para{
+  
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-6-inpot{
+  padding-left: 0px;
+    width: 350px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-6-btn{
+ 
+    width: 100%;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-6-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 6 */
+
+/* start the contanet 7 */
+
+.contaner-7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 20px;
+  padding-top: 20px;
+ gap: 10px;
+}
+.card-7-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+.card-7-main-1-img{
+
+  display: flex;
+ width: 100%;
+}
+.card-7-img{
+  width: 100%;
+  height: 350px;
+}
+.card-7-main-1-para{
+
+display: flex;
+flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-7-h1{
+  font-size: 28px;
+}
+.card-7-p1{
+  font-size: 18px;
+  color: #908f8f;
+}
+
+/* start the form */
+
+#form{
+  width: 40%;
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form-h1{
+  font-size: 30px;
+
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 5px;
+}
+input{
+  width: 100%;
+  height: 35px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+input:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+select{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+select:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+.submit{
+  height:20vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #e11b22;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+/* end the form */
+
+/* end the contanet 7 */
+
+/* start the footer */
+
+footer{
+  height: auto;
+  background-color: #212529;
+    
+  }
+  .footer-main{
+    display: flex;
+    /* width: 100%; */
+    height: auto;
+    background: #ededed;
+    padding-left: 20px;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-main-1{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+  .footer-main-1-main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .footer-main-1-a-1{
+    font-size: 15px;
+    color: #212529;
+  }
+  .footer-main-1-a-1::after{
+    content: "•";
+    margin-left: .4rem;
+    font-size: 1.rem;
+    color: #212529;
+    box-sizing: border-box;
+  }
+  .footer-main-2-p1{
+  display: none;
+  /* display: flex; */
+  gap: 10px;
+  }
+  /* .footer-main-2-a-1{
+  
+  } */
+  .fa-brands{
+  flex: 1 0 auto;
+  border-left: 0.1rem solid #ccc;
+  text-align: center;
+   font-size: 25px;
+   /* line-height: 2.2rem; */
+   padding: .5rem 1.8rem .2rem;
+   display: inline-block;
+   color: #6d6e70;
+  }
+  
+  .footer-main-2-p2{
+    display: block;
+    display: flex;
+    justify-content: end;
+    /* border-bottom: .1rem solid #ccc; */
+  }
+  /* end the footer */
+
+}
+
+@media screen and  (max-width: 431px) {
+
+  /* start the contanet 1 */
+
+    .contaner-1{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+      }
+    .contaner-1-main{
+ 
+        /* background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/SB_Green_V2.jpg); */
+        background: #cce600;
+        /* background-repeat: no-repeat; */
+        height: 62vh;
+        display: flex;
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+    }
+    
+    .header-div{
+      height: 100%;
+      padding-left: 20px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .header-h1{
+    
+        font-size: 28px;
+    }
+    
+    .header-p1{
+    
+        font-size: 20px;
+    }
+    
+    .header-inpot{
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .header-main-div{
+      
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-input{
+      padding-left: 10px;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    .header-btn{
+     
+        width: 220px;
+        height: 35px;
+        background:     #e11b22;
+        border: none;
+        border-radius: 5px;
+        color:#fff;
+        font-size: 20px;
+    }
+    .header-btn:hover{
+        background: #c70019;
+    }
+    
+    .header-a{
+      font-size: 12px;
+      color: blue;
+    }
+    /* end the contanet 1 */
+
+    /* start the contanet 2 */
+
+.contaner-2{
+
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.cont-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  height: auto;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-1-card-1{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-1-card-1-img{
+
+  width: 100%;
+}
+
+.card-1-img{
+  width: 100%;
+
+}
+
+.cont-main-1-card-1-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cont-main-1-card-1-h1{
+
+  font-size: 22px;
+}
+.cont-main-1-card-1-p1{
+
+  font-size: 15px;
+}
+.cont-main-1-card-1-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-1-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn:hover{
+  background-color: #c70019;
+}
+.card-1-btn-2{
+  width: 200px;
+  height: auto;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 220px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+
+.card-1-btn-2{
+  width: 200px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 220px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+.cont-main-2{
+
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height:auto ;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-2-card-2{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-2-card-2-img{
+
+  width: 100%;
+}
+
+.card-2-img{
+  width: 100%;
+
+}
+
+.cont-main-2-card-2-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-card-2-h1{
+
+  font-size: 22px;
+}
+.cont-main-2-card-2-p1{
+
+  font-size: 15px;
+}
+.cont-main-2-card-2-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-2-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-2-btn:hover{
+  background-color: #c70019;
+}
+
+/* end the contanet 2 */
+
+/* start the contanet 3 */
+.contaner-3{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-3-main{
+ 
+    background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/BLOOD-DONOR-APP-HERO-2024-DESKTOP-BLANK-GRADIENT-NEW.jpg);
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 65vh;
+    display: flex;
+    width: auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-3-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-3-h1{
+
+    font-size: 35px;
+    color:#e11b22
+}
+
+.cont-3-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-3-main-1-para{
+  
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-3-inpot{
+  padding-left: 0px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-3-btn{
+ 
+    width: 250px;
+    height: 60px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-3-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 3 */
+
+/* start the contanet 4 */
+
+.contaner-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ gap: 10px;
+ height: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.cont-4-main-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.cont-4-main-1-h1{
+  font-size: 30px;
+  text-align: center;
+}
+.cont-4-main-2{
+
+display: flex;
+flex-direction: column;
+width: 90%;
+height: auto;
+padding-bottom: 10px;
+box-shadow: 0 1px 3px 1px #ededed;
+gap: 10px;
+}
+.cont-4-main-3{
+
+display: flex;
+width: 100%;
+}
+.card-4-img{
+ 
+width: 100%;
+
+}
+.cont-main-4-para{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-h1{
+
+  font-size: 20px;
+}
+.cont-4-main-2-p1{
+
+font-size: 14px;
+color: #007caf;
+
+}
+/* end the contanet 4 */
+
+/* start the contanet 5 */
+.contaner-5{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-5-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 55vh;
+    display: flex;
+    width:auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-5-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-5-h1{
+
+    font-size: 28px;
+    color:#fff;
+}
+
+.cont-5-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-5-main-1-para{
+  
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-5-inpot{
+  padding-left: 0px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-5-btn{
+ 
+    width: 150px;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-5-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 5 */
+
+/* start the contanet 6 */
+.contaner-6{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-6-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 55vh;
+    display: flex;
+    width:auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-6-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-6-h1{
+
+    font-size: 28px;
+    color:#000;
+}
+
+.cont-6-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-6-main-1-para{
+  
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-6-inpot{
+  padding-left: 0px;
+    width: 95%;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-6-btn{
+ 
+    width: 100%;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-6-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 6 */
+
+/* start the contanet 7 */
+
+.contaner-7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-top: 20px;
+ gap: 10px;
+}
+.card-7-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.card-7-main-1-img{
+
+  display: flex;
+ width: 80%;
+}
+.card-7-img{
+  width: 100%;
+  height: 350px;
+}
+.card-7-main-1-para{
+
+display: flex;
+flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-7-h1{
+  font-size: 28px;
+}
+.card-7-p1{
+  font-size: 18px;
+  color: #908f8f;
+}
+
+/* start the form */
+
+#form{
+  width: 80%;
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  background: #b84f4f;
+}
+.form-h1{
+  font-size: 30px;
+
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 5px;
+}
+input{
+  width: 100%;
+  height: 35px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+input:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+select{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+select:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+.submit{
+  height:20vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #e11b22;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+/* end the form */
+
+/* end the contanet 7 */
+
+/* start the footer */
+
+footer{
+  height: auto;
+  background-color: #212529;
+    
+  }
+  .footer-main{
+    display: flex;
+    /* width: 100%; */
+    height: auto;
+    background: #ededed;
+    padding-left: 20px;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-main-1{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+  .footer-main-1-main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .footer-main-1-a-1{
+    font-size: 15px;
+    color: #212529;
+  }
+  .footer-main-1-a-1::after{
+    content: "•";
+    margin-left: .4rem;
+    font-size: 1.rem;
+    color: #212529;
+    box-sizing: border-box;
+  }
+  .footer-main-2-p1{
+  display: none;
+  /* display: flex; */
+  gap: 10px;
+  }
+  /* .footer-main-2-a-1{
+  
+  } */
+  .fa-brands{
+  flex: 1 0 auto;
+  border-left: 0.1rem solid #ccc;
+  text-align: center;
+   font-size: 25px;
+   /* line-height: 2.2rem; */
+   padding: .5rem 1.8rem .2rem;
+   display: inline-block;
+   color: #6d6e70;
+  }
+  
+  .footer-main-2-p2{
+    display: block;
+    display: flex;
+    /* border-bottom: .1rem solid #ccc; */
+  }
+  
+  /* end the footer */
+
+
+} 
+@media screen and  (max-width: 377px) {
+
+  /* start the contanet 1 */
+
+    .contaner-1{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+      }
+    .contaner-1-main{
+ 
+        /* background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/SB_Green_V2.jpg); */
+        background: #cce600;
+        height: 62vh;
+        display: flex;
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+    }
+    
+    .header-div{
+        height: 100%;
+        padding-left: 20px;
+        justify-content: center;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .header-h1{
+    
+        font-size: 24px;
+    }
+    
+    .header-p1{
+    
+        font-size: 17px;
+    }
+    
+    .header-inpot{
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .header-main-div{
+      
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-input{
+      padding-left: 10px;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    .header-btn{
+     
+        width: 220px;
+        height: 35px;
+        background:     #e11b22;
+        border: none;
+        border-radius: 5px;
+        color:#fff;
+        font-size: 20px;
+    }
+    .header-btn:hover{
+        background: #c70019;
+    }
+    
+    .header-a{
+      font-size: 12px;
+      color: blue;
+    }
+
+    /* end the contanet 1 */
+
+    /* start the contanet 2 */
+
+.contaner-2{
+
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.cont-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width:85%;
+  height:auto ;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-1-card-1{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-1-card-1-img{
+
+  width: 100%;
+}
+
+.card-1-img{
+  width: 100%;
+
+}
+
+.cont-main-1-card-1-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cont-main-1-card-1-h1{
+
+  font-size: 22px;
+}
+.cont-main-1-card-1-p1{
+
+  font-size: 15px;
+}
+.cont-main-1-card-1-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-1-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn:hover{
+  background-color: #c70019;
+}
+.card-1-btn-2{
+  width: 200px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 220px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+
+.card-1-btn-2{
+  width: 200px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 220px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+.cont-main-2{
+
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height:auto ;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-2-card-2{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-2-card-2-img{
+
+  width: 100%;
+}
+
+.card-2-img{
+  width: 100%;
+
+}
+
+.cont-main-2-card-2-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-card-2-h1{
+
+  font-size: 22px;
+}
+.cont-main-2-card-2-p1{
+
+  font-size: 15px;
+}
+.cont-main-2-card-2-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-2-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-2-btn:hover{
+  background-color: #c70019;
+}
+
+/* end the contanet 2 */
+
+/* start the contanet 3 */
+.contaner-3{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-3-main{
+ 
+    background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/BLOOD-DONOR-APP-HERO-2024-DESKTOP-BLANK-GRADIENT-NEW.jpg);
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 65vh;
+    display: flex;
+    width: auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-3-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-3-h1{
+
+    font-size: 35px;
+    color:#e11b22
+}
+
+.cont-3-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-3-main-1-para{
+  
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-3-inpot{
+  padding-left: 0px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-3-btn{
+ 
+    width: 250px;
+    height: 60px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-3-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 3 */
+
+/* start the contanet 4 */
+
+.contaner-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ gap: 10px;
+ height: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.cont-4-main-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.cont-4-main-1-h1{
+  font-size: 30px;
+  text-align: center;
+}
+.cont-4-main-2{
+
+display: flex;
+flex-direction: column;
+width: 90%;
+height: auto;
+padding-bottom: 10px;
+box-shadow: 0 1px 3px 1px #ededed;
+gap: 10px;
+}
+.cont-4-main-3{
+
+display: flex;
+width: 100%;
+}
+.card-4-img{
+ 
+width: 100%;
+
+}
+.cont-main-4-para{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-h1{
+
+  font-size: 20px;
+}
+.cont-4-main-2-p1{
+
+font-size: 14px;
+color: #007caf;
+
+}
+/* end the contanet 4 */
+
+/* start the contanet 6 */
+.contaner-6{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-6-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 55vh;
+    display: flex;
+    width:auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-6-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-6-h1{
+
+    font-size: 28px;
+    color:#000;
+}
+
+.cont-6-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-6-main-1-para{
+  
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-6-inpot{
+  padding-left: 0px;
+    width: 95%;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-6-btn{
+ 
+    width: 100%;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-6-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 6 */
+
+/* start the contanet 7 */
+
+.contaner-7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-top: 20px;
+ gap: 10px;
+}
+.card-7-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.card-7-main-1-img{
+
+  display: flex;
+ width: 80%;
+}
+.card-7-img{
+  width: 100%;
+  height: 300px;
+}
+.card-7-main-1-para{
+
+display: flex;
+flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-7-h1{
+  font-size: 28px;
+}
+.card-7-p1{
+  font-size: 18px;
+  color: #908f8f;
+}
+
+/* start the form */
+
+#form{
+  width: 80%;
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+.form-h1{
+  font-size: 30px;
+
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 5px;
+}
+input{
+  width: 100%;
+  height: 35px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+input:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+select{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+select:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+.submit{
+  height:20vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #e11b22;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+/* end the form */
+
+/* end the contanet 7 */
+
+/* start the footer */
+
+footer{
+  height: auto;
+  background-color: #212529;
+    
+  }
+  .footer-main{
+    display: flex;
+    /* width: 100%; */
+    height: auto;
+    background: #ededed;
+    padding-left: 20px;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-main-1{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+  .footer-main-1-main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .footer-main-1-a-1{
+    font-size: 15px;
+    color: #212529;
+  }
+  .footer-main-1-a-1::after{
+    content: "•";
+    margin-left: .4rem;
+    font-size: 1.rem;
+    color: #212529;
+    box-sizing: border-box;
+  }
+  .footer-main-2-p1{
+  display: none;
+  /* display: flex; */
+  gap: 10px;
+  }
+  /* .footer-main-2-a-1{
+  
+  } */
+  .fa-brands{
+  flex: 1 0 auto;
+  border-left: 0.1rem solid #ccc;
+  text-align: center;
+   font-size: 25px;
+   /* line-height: 2.2rem; */
+   padding: .5rem 1.5rem .2rem;
+   display: inline-block;
+   color: #6d6e70;
+  }
+  
+  .footer-main-2-p2{
+    display: block;
+    display: flex;
+    /* border-bottom: .1rem solid #ccc; */
+  }
+  /* end the footer */
+
+
+} 
+@media  screen  and   (max-width: 320px) {
+
+  /* start the contanet 1 */
+  
+
+    .contaner-1{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        height: 62vh;
+        justify-content: center;
+      }
+    .contaner-1-main{
+ 
+        /* background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/SB_Green_V2.jpg); */
+        background:#cce600;
+        /* background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; */
+        display: flex;
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+    }
+    
+    .header-div{
+        height: 100%;
+        justify-content: center;
+      display: flex;
+      padding-left: 20px;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .header-h1{
+    
+        font-size: 24px;
+    }
+    
+    .header-p1{
+    
+        font-size: 17px;
+    }
+    
+    .header-inpot{
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .header-main-div{
+      
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-input{
+      padding-left: 10px;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    .header-btn{
+     
+        width: 220px;
+        height: 35px;
+        background:     #e11b22;
+        border: none;
+        border-radius: 5px;
+        color:#fff;
+        font-size: 20px;
+    }
+    .header-btn:hover{
+        background: #c70019;
+    }
+    
+    .header-a{
+      font-size: 12px;
+      color: blue;
+    }
+    /* end the contanet 1 */
+
+/* start the contanet 2 */
+
+.contaner-2{
+
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.cont-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  height:auto ;
+  padding-bottom: 20px;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+}
+
+.cont-main-1-card-1{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-1-card-1-img{
+
+  width: 100%;
+}
+
+.card-1-img{
+  width: 100%;
+
+}
+
+.cont-main-1-card-1-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-1-card-1-h1{
+
+  font-size: 22px;
+}
+.cont-main-1-card-1-p1{
+
+  font-size: 15px;
+}
+.cont-main-1-card-1-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-1-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn:hover{
+  background-color: #c70019;
+}
+.card-1-btn-2{
+  width: 200px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 220px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+
+.card-1-btn-2{
+  width: 200px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-2:hover{
+  background-color: #c70019;
+}
+.card-1-btn-3{
+  width: 220px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-1-btn-3:hover{
+  background-color: #c70019;
+}
+.cont-main-2{
+
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height:auto ;
+  gap: 35px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 1px #ededed;
+  padding-bottom: 20px;
+}
+
+.cont-main-2-card-2{
+ display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont-main-2-card-2-img{
+
+  width: 100%;
+}
+
+.card-2-img{
+  width: 100%;
+
+}
+
+.cont-main-2-card-2-para{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-card-2-h1{
+
+  font-size: 22px;
+}
+.cont-main-2-card-2-p1{
+
+  font-size: 15px;
+}
+.cont-main-2-card-2-btn{
+  display: flex;
+justify-content: center;
+  width: 100%;
+}
+.card-2-btn{
+  width: 100px;
+  height: 40px;
+  background-color:#e11b22;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-2-btn:hover{
+  background-color: #c70019;
+}
+
+/* end the contanet 2 */
+
+/* start the contanet 3 */
+.contaner-3{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-3-main{
+ 
+    background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/hero-blocks/BLOOD-DONOR-APP-HERO-2024-DESKTOP-BLANK-GRADIENT-NEW.jpg);
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 65vh;
+    display: flex;
+    width:auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-3-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-3-h1{
+
+    font-size: 35px;
+    color:#e11b22
+}
+
+.cont-3-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-3-main-1-para{
+  
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-3-inpot{
+  padding-left: 0px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-3-btn{
+ 
+    width: 250px;
+    height: 60px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-3-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 3 */
+
+/* start the contanet 4 */
+
+.contaner-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ gap: 10px;
+ height: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.cont-4-main-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.cont-4-main-1-h1{
+  font-size: 30px;
+  text-align: center;
+}
+.cont-4-main-2{
+
+display: flex;
+flex-direction: column;
+width: 90%;
+height: auto;
+padding-bottom: 10px;
+box-shadow: 0 1px 3px 1px #ededed;
+gap: 10px;
+}
+.cont-4-main-3{
+
+display: flex;
+width: 100%;
+}
+.card-4-img{
+ 
+width: 100%;
+
+}
+.cont-main-4-para{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+.cont-main-2-h1{
+
+  font-size: 20px;
+}
+.cont-4-main-2-p1{
+
+font-size: 14px;
+color: #007caf;
+
+}
+/* end the contanet 4 */
+
+/* start the contanet 5 */
+.contaner-5{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-5-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 55vh;
+    display: flex;
+    width:auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-5-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-5-h1{
+
+    font-size: 28px;
+    color:#fff;
+}
+
+.cont-5-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-5-main-1-para{
+  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-5-inpot{
+  padding-left: 0px;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-5-btn{
+ 
+    width: 150px;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-5-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 5 */
+
+/* start the contanet 6 */
+.contaner-6{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contaner-6-main{
+ 
+    /* background-size: contain ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-position:initial; */
+    /* position: absolute; */
+    height: 55vh;
+    display: flex;
+    width:auto;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.cont-6-main-1-div{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cont-6-h1{
+
+    font-size: 28px;
+    color:#000;
+}
+
+.cont-6-p1{
+
+    font-size: 18px;
+}
+
+.header-inpot{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-6-main-1-para{
+  
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-6-inpot{
+  padding-left: 0px;
+    width: 95%;
+    height: 35px;
+    font-size: 18px;
+}
+
+.cont-6-btn{
+ 
+    width: 100%;
+    height: 40px;
+    background:     #e11b22;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+.cont-6-btn:hover{
+    background: #c70019;
+}
+
+/* end the contanet 6 */
+
+/* start the contanet 7 */
+
+.contaner-7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-top: 20px;
+ gap: 10px;
+}
+.card-7-main-1{
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.card-7-main-1-img{
+
+  display: flex;
+
+}
+.card-7-img{
+  width: 100%;
+  height: 300px;
+}
+.card-7-main-1-para{
+
+display: flex;
+flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-7-h1{
+  font-size: 28px;
+}
+.card-7-p1{
+  font-size: 18px;
+  color: #908f8f;
+}
+
+/* start the form */
+
+#form{
+  width: 80%;
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+.form-h1{
+  font-size: 30px;
+
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 5px;
+}
+input{
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+input:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+select{
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+select:focus{
+  border-color: #e11b22;
+    outline: none;
+    box-shadow: 0 0 5px #e11b22;
+}
+.submit{
+  height:20vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #e11b22;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+/* end the form */
+
+/* end the contanet 7 */
+
+/* start the footer */
+
+footer{
+  height: auto;
+  background-color: #212529;
+    
+  }
+  .footer-main{
+    display: flex;
+    /* width: 100%; */
+    height: auto;
+    background: #ededed;
+    padding-left: 20px;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-main-1{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+  .footer-main-1-main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .footer-main-1-a-1{
+    font-size: 15px;
+    color: #212529;
+  }
+  .footer-main-1-a-1::after{
+    content: "•";
+    margin-left: .4rem;
+    font-size: 1.rem;
+    color: #212529;
+    box-sizing: border-box;
+  }
+  .footer-main-2-p1{
+  display: none;
+  /* display: flex; */
+  gap: 10px;
+  }
+  /* .footer-main-2-a-1{
+  
+  } */
+  .fa-brands{
+  flex: 1 0 auto;
+  border-left: 0.1rem solid #ccc;
+  text-align: center;
+   font-size: 25px;
+   /* line-height: 2.2rem; */
+   padding: .5rem 1rem .2rem;
+   display: inline-block;
+   color: #6d6e70;
+  }
+  
+  .footer-main-2-p2{
+    display: block;
+    display: flex;
+    /* border-bottom: .1rem solid #ccc; */
+  }
+  /* end the footer */
+  
+
+}

@@ -455,13 +455,26 @@ color: #007caf;
 }
 
 
-#text ,#fillInblood {
-  color:#fff ;
-  text-align: left;
-  margin: 0;
-  padding: 0;
+.blood-div-1{
+  height: auto;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  display: none;
+  padding-bottom: 20px;
 }
-
+.blood-div-2{
+  width: 90%;
+  height: 400px;
+  flex-direction: column;
+  border-radius: 10%;
+  color: #ccc;
+  background-color: #e11b22;
+  display: flex;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+}
 .contaner-5-main{
  
     background-image:url(https://www.redcrossblood.org/content/dam/redcrossblood/hero-mockups/Platelet_London_DT_Hero_with_text.jpg);
@@ -659,7 +672,7 @@ flex-direction: column;
   gap: 20px;
   padding-top: 20px;
   padding-left: 20px;
-  background: #b84f4f;
+  background: #ffff;
 }
 .form-h1{
   font-size: 30px;
@@ -700,7 +713,7 @@ select:focus{
   justify-content: center;
 }
 button{
-  width: 150px;
+  width: 180px;
   height: 40px;
   background-color: #e11b22;
   border-radius: 5px;
@@ -3119,6 +3132,25 @@ button{
   color: #fff;
   font-size: 16px;
 }
+.blood-div-1{
+  height: auto;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  display: none;
+  padding-bottom: 20px;
+}
+.blood-div-2{
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+  border-radius: 10%;
+  background-color: #e11b22;
+  display: flex;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+}
 /* end the form */
 
 /* end the contanet 7 */
@@ -3815,7 +3847,7 @@ flex-direction: column;
   padding-right: 20px;
   padding-bottom: 20px;
   height: auto;
-  background: #b84f4f;
+  
 }
 .form-h1{
   font-size: 30px;
@@ -3862,6 +3894,25 @@ button{
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
+}
+.blood-div-1{
+  height: auto;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  display: none;
+  padding-bottom: 20px;
+}
+.blood-div-2{
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+  border-radius: 10%;
+  background-color: #e11b22;
+  display: flex;
+  color: #000;
+  justify-content: center;
+  align-items: center;
 }
 /* end the form */
 
@@ -4523,10 +4574,29 @@ select:focus{
 button{
   width: 150px;
   height: 40px;
-  background-color: #e11b22;
+  
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
+}
+.blood-div-1{
+  height: auto;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  display: none;
+  padding-bottom: 20px;
+}
+.blood-div-2{
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+  border-radius: 10%;
+  background-color: ;
+  display: flex;
+  color: #000;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -5272,6 +5342,25 @@ button{
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
+}
+.blood-div-1{
+  height: auto;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  display: none;
+  padding-bottom: 20px;
+}
+.blood-div-2{
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+  border-radius: 10%;
+  background-color: #e11b22;
+  display: flex;
+  color: #000;
+  justify-content: center;
+  align-items: center;
 }
 /* end the form */
 

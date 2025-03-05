@@ -49,6 +49,7 @@ function blood() {
     //     bloodGroup.focus();
     //     return;
     // }    
+    let blood_div_1 =document.getElementById('blood-div-1')
 
     function bloodGroup() {
 
@@ -71,6 +72,7 @@ function blood() {
                 } 
                 fillInblood.innerHTML = `✅ Compatible donors: ${bloodCompatibility[bloodGroup].join(", ")}`;
                 
+                blood_div_1.style.display = 'Block'; 
             }
             console.log(fillInblood);
         

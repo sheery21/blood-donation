@@ -462,9 +462,10 @@ color: #007caf;
   justify-content: center;
   display: none;
   padding-bottom: 20px;
+  padding-left: 15px;
 }
 .blood-div-2{
-  width: 100%;
+  width: 93%;
   height: 400px;
   flex-direction: column;
   border-radius: 10%;

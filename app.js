@@ -14,10 +14,6 @@ const fillInPhone = document.getElementById("fillInPhone")
 const aleert2 = document.getElementById("aleert2") 
 const aleert = document.getElementById("aleert") 
 const arr =[]
-//  text.innerHTML = `<li>${arr.value}</li>`
-
-
-
     
 
 function blood() {
@@ -43,12 +39,7 @@ function blood() {
             phone.focus();
             return;
         }
-    
-    //     if (   !bloodGroup.value){
-    //             fillInblood.innerHTML =("Please fill out this Select.");
-    //     bloodGroup.focus();
-    //     return;
-    // }    
+     
     let blood_div_1 =document.getElementById('blood-div-1')
 
     function bloodGroup() {
@@ -74,7 +65,7 @@ function blood() {
                 
                 blood_div_1.style.display = 'Block'; 
             }
-            console.log(fillInblood);
+            // console.log(fillInblood);
         
         
 console.log(bloodGroup());
@@ -87,6 +78,6 @@ console.log(bloodGroup());
          donor_text: text.value,
          
         }
-        text.innerHTML = obj.Name + '<br>' + obj.age + '<br>' + obj.email + '<br>' + obj.Number 
+        text.innerHTML = `Name: ${obj.Name}  <br> Age: ${obj.age}  <br> Email: ${obj.email}  <br> Number ${obj.Number} `
         arr.push(obj)
     }

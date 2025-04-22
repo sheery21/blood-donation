@@ -457,19 +457,19 @@ color: #007caf;
 
 .blood-div-1{
   height: auto;
-  width: 93%;
+  width: 100%;
   display: flex;
   justify-content: center;
   display: none;
   padding-bottom: 20px;
 }
 .blood-div-2{
-  width: 90%;
+  width: 100%;
   height: 400px;
   flex-direction: column;
   border-radius: 10%;
   color: #ccc;
-  background-color: #e11b22;
+  background-color: #fff5ee;
   display: flex;
   color: #000;
   justify-content: center;
